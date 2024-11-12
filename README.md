@@ -30,10 +30,10 @@ To set up this project locally, follow these steps:
   npm install
 
 In the first terminal, navigate to the frontend directory and run:
-```bash
+bash
 npm run start
 
 
 In the second terminal, navigate to the backend directory and run:
-```bash
+bash
 npm run start
