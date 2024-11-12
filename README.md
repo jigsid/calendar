@@ -27,10 +27,10 @@ To set up this project locally, follow these steps:
 
 2. Navigate to the project directory:
 ```bash
-cd calendar
+   cd calendar
 
 
-3.Install dependencies for both frontend and backend:
+3. Install dependencies for both frontend and backend:
 ```bash
 cd frontend
 npm install
