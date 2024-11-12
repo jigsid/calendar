@@ -1,0 +1,201 @@
+/* src/styles.css */
+
+/* General App Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.calendar-container {
+  padding: 20px;
+}
+
+/* Input Styles */
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1a1a; /* Dark input background */
+  color: #00ffd1; /* Neon teal text */
+}
+
+.search-input::placeholder {
+  color: #b0b0b0; /* Placeholder text color */
+}
+
+/* Flexbox for Calendar and Notification */
+.calendar-notification-container {
+  display: flex;
+  justify-content: space-between; /* Equal space between components */
+}
+
+/* Left Side - Calendar and Upcoming Events */
+.left-side {
+  flex-basis: calc(40% - 20px); /* Adjust width as needed */
+}
+
+/* Middle Content for Title & Description Form */
+.middle-content {
+  flex-basis: calc(20% - 20px); /* Centered space for form */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+}
+
+/* Right Side - Notification Message Block */
+.right-side {
+  flex-basis: calc(40% - 20px); /* Adjust width as needed */
+}
+
+/* Space between search input and calendar */
+.search-input {
+  margin-bottom: 20px; /* Add space below the search input */
+}
+
+/* Notification Styles */
+.notification {
+  margin-left: 20px; /* Space between calendar and notification */
+  border: solid thin #00ffd1; /* Neon teal border */
+  background-color: rgba(18, 18, 18, 0.9);
+  padding: 15px;
+  min-width: 150px; /* Minimum width for better visibility */
+}
+
+.notification-buttons {
+  display: flex;
+  justify-content: space-between; /* Space out snooze and dismiss buttons */
+}
+
+/* Upcoming Events Section */
+.upcoming-events,
+.event-list {
+  list-style-type: none; /* Remove bullet points */
+}
+
+.upcoming-event-item,
+.event-item {
+  padding: 10px;
+  border-bottom: solid thin #00ffd1; /* Neon teal border */
+}
+
+/* Image Styles */
+.event-image,
+.upcoming-event-image {
+  width: auto; /* Adjust image size as needed */
+  max-width: 50px; /* Limit maximum width for images */
+}
+
+/* Button Styles */
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ff4081; /* Neon pink */
+  color: white;
+}
+
+/* Calendar Specific Styles */
+.react-calendar {
+  background-color: #1a1a1a; /* Dark background for the calendar */
+}
+
+.react-calendar__tile {
+  color: #f5f5f5; /* Soft white for calendar dates */
+}
+
+.react-calendar__tile--active {
+  background-color: #00ffd1; /* Neon teal for active date */
+  color: black; /* Ensure active date text is visible */
+}
+
+.react-calendar__tile--now {
+  background-color: rgba(255, 64, 129, 0.5); /* Light pink for today's date */
+  color: black; /* Ensure today's date text is visible */
+}
+
+/* Form Styles */
+.event-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.form-input,
+.form-textarea,
+.form-datetime {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Limit maximum width */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1a1a; /* Dark background for inputs */
+  color: #00ffd1; /* Neon teal text */
+}
+
+.form-textarea {
+  height: 80px; /* Set a fixed height for the textarea */
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ff4081; /* Neon pink */
+}
+
+/* Additional spacing for better layout */
+.event-list h3,
+.upcoming-events h3,
+.calendar-notification-container h3 {
+  margin-top: 20px; /* Space above section headers */
+}
+
+.event-item,
+.upcoming-event-item {
+  margin-bottom: 15px; /* Space between individual events */
+}
+/* src/styles.css */
+
+/* Form Styles */
+.event-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align items horizontally */
+}
+
+.form-input,
+.form-textarea,
+.form-datetime,
+.submit-button {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Limit maximum width */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1a1a; /* Dark background for inputs */
+  color: #00ffd1; /* Neon teal text */
+  margin-bottom: 15px; /* Space between inputs */
+}
+
+/* Additional styles for textarea */
+.form-textarea {
+  height: 80px; /* Set a fixed height for the textarea */
+}
+
+/* Submit button styles */
+.submit-button {
+  background-color: #ff4081; /* Neon pink */
+  color: white;
+}
+/* src/styles.css */
+
+/* Search Input Styles */
+.search-input {
+  padding: 10px;
+  border: 2px solid white; /* White border */
+  border-radius: 5px;
+  background-color: #1a1a1a; /* Dark input background */
+  color: #00ffd1; /* Neon teal text */
+}
+
+.search-input::placeholder {
+  color: #b0b0b0; /* Placeholder text color */
+}
