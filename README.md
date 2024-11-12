@@ -23,10 +23,10 @@ To set up this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/jigsid/calendar.git
- bash```
+ bash
 
 2. Navigate to the project directory:
-bash
+```bash
 cd calendar
 
 3.Install dependencies for both frontend and backend:
