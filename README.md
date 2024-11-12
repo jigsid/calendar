@@ -25,11 +25,11 @@ To set up this project locally, follow these steps:
    git clone https://github.com/jigsid/calendar.git
 
 2. Navigate to the project directory:
-```bash
+bash
 cd calendar
 
 3.Install dependencies for both frontend and backend:
-```bash
+bash
 cd frontend
 npm install
 cd ../backend
@@ -39,9 +39,9 @@ npm install
 To run both the frontend and backend concurrently, follow these steps:
 Open two terminal windows.
 In the first terminal, navigate to the frontend directory and run:
-```bash
+bash
 npm run start
 
 In the second terminal, navigate to the backend directory and run:
-```bash
+bash
 npm run start
