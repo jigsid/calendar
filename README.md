@@ -21,17 +21,17 @@ This is a full-stack calendar application built with React for the frontend and 
 To set up this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   ```shell
    git clone https://github.com/jigsid/calendar.git
- 
+ ```
 
 2. Navigate to the project directory:
-
+```shell
    cd calendar
-
+```
 
 3. Install dependencies for both frontend and backend:
-```bash
+
 cd frontend
 npm install
 cd ../backend
